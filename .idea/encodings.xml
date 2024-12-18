@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/businessDomain/customer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/businessDomain/customer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/businessDomain/product/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/businessDomain/product/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/businessDomain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/businessDomain/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/businessDomain/transactions/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/businessDomain/transactions/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/customer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/infraestructuraDomain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/infraestructuraDomain/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../customer/src/main/java" charset="UTF-8" />
+  </component>
+</project>
