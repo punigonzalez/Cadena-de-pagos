@@ -13,6 +13,7 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.persistence.Entity;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.env.Environment;
 import org.springframework.http.*;
 import org.springframework.http.client.reactive.ReactorClientHttpConnector;
 import org.springframework.web.bind.annotation.*;
@@ -54,6 +55,12 @@ public class CustomerController {
 
             });
 
+    @Autowired
+    private Environment env;
+    @GetMapping("/check")
+    public String check(){
+        return "Hola, estas en el perfil: " + env.getProperty("custom.activeprofileName");
+    }
 
 
     // crear un customer
